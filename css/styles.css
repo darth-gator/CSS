@@ -1,0 +1,185 @@
+/***** tag selectors ******/
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    color: #40514E;
+}
+
+div {
+  
+}
+
+h1 {
+   margin: 50px auto 0 auto;
+   font-family: "Permanent Marker", sans-serif; 
+   font-size: 4rem;
+   color: #19376D;
+   line-height: 2;
+   font-weight: lighter;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #19376D;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #19376D;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 1.45em;
+    margin: 0;
+}
+
+hr {
+    color: lightgray;
+    border-style: dotted none none none;
+    width: 3.5%;
+    border-width: 5px;
+}
+
+p {
+    font-size: 1.15rem;
+    line-height: 2;
+}
+
+
+/***** class selectors ******/
+.bottom-p {
+    margin-top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    color: #11999E;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.btn {
+    background: #136dd4;
+    background-image: -webkit-linear-gradient(top, #136dd4, #59adde);
+    background-image: -moz-linear-gradient(top, #136dd4, #59adde);
+    background-image: -ms-linear-gradient(top, #136dd4, #59adde);
+    background-image: -o-linear-gradient(top, #136dd4, #59adde);
+    background-image: linear-gradient(to bottom, #136dd4, #59adde);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: "Playfair Display", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #35bde3;
+    background-image: -webkit-linear-gradient(top, #35bde3, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #35bde3, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #35bde3, #2bc4ad);
+    background-image: -o-linear-gradient(top, #35bde3, #2bc4ad);
+    background-image: linear-gradient(to bottom, #35bde3, #2bc4ad);
+    text-decoration: none;
+  }
+
+.copyright {
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    size: 0.75rem
+  }
+
+.contact-icon {
+    width: 25%;
+}
+
+.dev-script {
+    width: 150%;
+}
+.footer-link {
+    margin: 0 10px;
+}
+
+.h2-skills {
+    margin-top: 50px;
+}
+
+.intro-p {
+    margin: 50px auto 33px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.pusheen {
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.skills {
+    padding-bottom: 50px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top-container {
+    background-color: #ccefff;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.mountain {
+    
+}
+
+.coding-icon {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.ux-icon {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+/********** ID selectors ************/
